@@ -1,0 +1,15 @@
+[mysqld]
+authentication_policy=${MYSQL_AUTHENTICATION_POLICY}
+
+max_connections=${MYSQL_MAX_CONNECTIONS}
+wait_timeout=${MYSQL_WAIT_TIMEOUT}
+interactive_timeout=${MYSQL_INTERACTIVE_TIMEOUT}
+
+character-set-server=${MYSQL_CHARACTER_SET_SERVER}
+collation-server=${MYSQL_COLLATION_SERVER}
+
+innodb_buffer_pool_size=${MYSQL_INNODB_BUFFER_POOL_SIZE}
+innodb_buffer_pool_instances=${MYSQL_INNODB_BUFFER_POOL_INSTANCES}
+innodb_flush_log_at_trx_commit=${MYSQL_INNODB_FLUSH_LOG_AT_TRX_COMMIT}
+innodb_flush_log_at_timeout=${MYSQL_INNODB_FLUSH_LOG_AT_TIMEOUT}
+innodb_io_capacity=${MYSQL_INNODB_IO_CAPACITY}
